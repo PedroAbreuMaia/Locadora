@@ -86,7 +86,6 @@
     <None Include="..\x64\Debug\System.Data.SQLite.Linq.dll">
       <Filter>References</Filter>
     </None>
-    <None Include="packges.config" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="..\x64\Debug\System.Data.SQLite.Linq.xml">
