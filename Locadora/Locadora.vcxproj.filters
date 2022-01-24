@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="References">
+      <UniqueIdentifier>{f366b47d-d187-4bb9-a7c4-5c0c60a34b9a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainForm.cpp">
@@ -68,5 +71,26 @@
     <ClInclude Include="SearchDirectorForm.h">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MyDb.db" />
+    <None Include="..\x64\Debug\SQLite.Interop.dll">
+      <Filter>References</Filter>
+    </None>
+    <None Include="..\x64\Debug\System.Data.SQLite.dll">
+      <Filter>References</Filter>
+    </None>
+    <None Include="..\x64\Debug\System.Data.SQLite.EF6.dll">
+      <Filter>References</Filter>
+    </None>
+    <None Include="..\x64\Debug\System.Data.SQLite.Linq.dll">
+      <Filter>References</Filter>
+    </None>
+    <None Include="packges.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\x64\Debug\System.Data.SQLite.Linq.xml">
+      <Filter>References</Filter>
+    </Xml>
   </ItemGroup>
 </Project>

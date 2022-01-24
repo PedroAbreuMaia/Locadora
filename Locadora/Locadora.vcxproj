@@ -196,6 +196,17 @@
       <DependentUpon>SearchMovieForm.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x64\Debug\SQLite.Interop.dll" />
+    <None Include="..\x64\Debug\System.Data.SQLite.dll" />
+    <None Include="..\x64\Debug\System.Data.SQLite.EF6.dll" />
+    <None Include="..\x64\Debug\System.Data.SQLite.Linq.dll" />
+    <None Include="packges.config" />
+    <None Include="MyDb.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\x64\Debug\System.Data.SQLite.Linq.xml" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
